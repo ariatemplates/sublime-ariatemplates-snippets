@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+{Template {
+	\$classpath: "${1}",
+	\$hasScript: ${2:true}
+}}
+{macro main()}
+	${3}
+{/macro}
+{/Template}
+]]></content>
+	<tabTrigger>template</tabTrigger>
+</snippet>

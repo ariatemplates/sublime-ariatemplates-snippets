@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+Aria.tplScriptDefinition({
+	\$classpath: "${1}",
+	\$prototype: {
+		${2}
+	}
+});
+]]></content>
+	<tabTrigger>Aria.tplScriptDefinition</tabTrigger>
+	<scope>source.js</scope>
+	<description>Template Script</description>
+</snippet>

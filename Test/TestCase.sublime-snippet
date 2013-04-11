@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+Aria.classDefinition({
+	\$classpath: "${1}",
+	\$extends: "aria.jsunit.TestCase",
+	\$prototype: {
+		${2:testSomething}: function () {
+			${3}
+		}
+	}
+});
+]]></content>
+	<tabTrigger>Aria.testDefinition</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

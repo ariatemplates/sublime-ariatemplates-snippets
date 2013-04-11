@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+Aria.classDefinition({
+	\$classpath: "${1}",
+	\$extends: "aria.jsunit.TestSuite",
+	\$constructor: function () {
+		this.\$TestSuite.constructor.call(this);
+
+		this.addTests("${2}");
+	}
+});
+]]></content>
+	<tabTrigger>Aria.testSuite</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

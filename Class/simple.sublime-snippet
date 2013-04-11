@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+Aria.classDefinition({
+	\$classpath: "${1}",
+	\$prototype: {
+		${2}
+	}
+});
+]]></content>
+	<tabTrigger>Aria.classDefinition</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
