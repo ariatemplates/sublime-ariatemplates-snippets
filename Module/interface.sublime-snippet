@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+Aria.interfaceDefinition({
+	\$classpath: "${1}",
+	\$extends: "aria.templates.IModuleCtrl",
+	\$interface: {
+		${2:publicMethod}: {
+			\$type: "${3:Function}"
+		}
+	}
+});
+]]></content>
+	<tabTrigger>Aria.moduleCtrlInterface</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

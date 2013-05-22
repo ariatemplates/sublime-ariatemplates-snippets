@@ -2,7 +2,11 @@ A collection of useful [Aria Templates](http://ariatemplates.com) snippets for [
 
 ## Installation
 
-This package is not (yet?) in [wbond](http://wbond.net/sublime_packages/package_control)'s package control repository, so it has to be installed manually.
+This package is in [wbond](http://wbond.net/sublime_packages/package_control)'s package control repository. So you can simply search for
+
+`AriaTemplates Snippets`
+
+
 
 ### Without Package Control
 
