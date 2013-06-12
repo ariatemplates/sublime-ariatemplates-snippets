@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+Aria.classDefinition({
+	\$classpath: "${1}",
+	\$extends: "aria.jsunit.TemplateTestCase",
+	\$constructor : function () {
+		this.\$TemplateTestCase.\$constructor.call(this);
+
+		this.setTestEnv({${2}});
+	},
+	\$prototype: {
+		runtTemplateTest: function () {
+			${3}
+		}
+	}
+});
+
+]]></content>
+	<tabTrigger>Aria.templateTest</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

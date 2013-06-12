@@ -3,7 +3,7 @@
 Aria.classDefinition({
 	\$classpath: "${1}",
 	\$extends: "aria.templates.ModuleCtrl",
-	\$implements: "${2:aria.templates.IModuleCtrl}",
+	\$implements: ["${2:aria.templates.IModuleCtrl}"],
 	\$prototype: {
 		\$publicInterfaceName: "${2:aria.templates.IModuleCtrl}",
 
