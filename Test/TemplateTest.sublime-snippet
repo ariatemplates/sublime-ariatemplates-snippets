@@ -9,7 +9,7 @@ Aria.classDefinition({
 		this.setTestEnv({${2}});
 	},
 	\$prototype: {
-		runtTemplateTest: function () {
+		runTemplateTest: function () {
 			${3}
 		}
 	}
